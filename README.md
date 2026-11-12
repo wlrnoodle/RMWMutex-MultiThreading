@@ -12,12 +12,18 @@ I included my report and analysis on C++ implementations and bechmarks of these 
     <img src="https://img.shields.io/badge/Read_the_Report-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Read the Report"/>
   </a>
 </p>
-Each of part1/, part2/, and part3/ has its own Makefile:
+Each of `part1/`, `part2/`, and `part3/` has its own Makefile.
 
-bash
+**Build:**
+
+```bash
 cd part1 && make
+```
 
-bash
+**Run:**
+
+```bash
 ./part -threadcount
+```
 
 Tested on an Ubuntu VM with 4 cores. Performance may vary with different numbers of cores and architectures. Check your core count and architecture before comparing against the analysis, since the results are most accurate for 4 cores.
