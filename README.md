@@ -7,7 +7,7 @@ The project compares locks built from plain loads and stores (Filter, Bakery) an
 **Report (design, results, and analysis):** 
 
 I included my report and analysis on C++ implementations and bechmarks of these mutexes, with comparison with atomic RMW mutexes.
-<img src="MutexRMW_Report.pdf" alt =" PDF" width="600"/>
+📄MutexRMW_Report.pdf
 
 Build
 
