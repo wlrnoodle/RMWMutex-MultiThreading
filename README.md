@@ -7,9 +7,11 @@ The project compares locks built from plain loads and stores (Filter, Bakery) an
 **Report (design, results, and analysis):** 
 
 I included my report and analysis on C++ implementations and bechmarks of these mutexes, with comparison with atomic RMW mutexes.
-[![Read the Report](https://img.shields.io/badge/Read_the_Report-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](report/MutexRMW_Report.pdf)
-Build
-
+<p align="center">
+  <a href="MutexRMW_Report.pdf">
+    <img src="https://img.shields.io/badge/Read_the_Report-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Read the Report"/>
+  </a>
+</p>
 Each of part1/, part2/, and part3/ has its own Makefile:
 
 bash
